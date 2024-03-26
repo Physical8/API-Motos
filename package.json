@@ -1,0 +1,26 @@
+{
+  "name": "api-motos",
+  "version": "0.0.1",
+  "description": "API con un CRUD que gestiona información en un archivo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-dev": "npx nodemon index.js",
+    "debug": "node --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "plain-text",
+    "json"
+  ],
+  "author": "Leonardo Maje Rios",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "pdfkit": "^0.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
