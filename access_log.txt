@@ -1,0 +1,23 @@
+10/04/2024 20:54:58 [GET] /motos/8 {} undefined ::1
+10/04/2024 20:56:03 [GET] /motos {} undefined ::1
+10/04/2024 20:56:18 [GET] /motos?filtro=brand&valor=Yamaha {"filtro":"brand","valor":"Yamaha"} undefined ::1
+10/04/2024 20:56:38 [POST] /motos {} undefined ::1
+10/04/2024 20:57:31 [PUT] /motos/6 {} undefined ::1
+10/04/2024 20:57:42 [PUT] /motos/6 {} undefined ::1
+10/04/2024 20:57:59 [PUT] /motos/Actualizar_motos {} undefined ::1
+10/04/2024 21:01:07 [GET] /motos?filtro=brand&valor=Ducati {"filtro":"brand","valor":"Ducati"} undefined ::1
+10/04/2024 21:01:56 [GET] /motos/8 {} undefined ::1
+10/04/2024 21:02:04 [GET] /motos/9 {} undefined ::1
+10/04/2024 21:02:11 [GET] /motos/8 {} undefined ::1
+10/04/2024 21:03:15 [POST] /motos {} undefined ::1
+10/04/2024 21:03:45 [POST] /motos {} undefined ::1
+10/04/2024 21:05:49 [GET] /motos?filtro=brand&valor=Ducati {"filtro":"brand","valor":"Ducati"} undefined ::1
+10/04/2024 21:05:57 [GET] /motos {} undefined ::1
+10/04/2024 21:07:03 [POST] /motos {} undefined ::1
+10/04/2024 21:11:47 [POST] /motos {} undefined ::1
+10/04/2024 21:18:47 [POST] /motos {} {"brand":"Kawasakiss","model":"Ninja ZX-6R","release_date":"2023-08-01","engine_displacement_cc":636,"top_speed_kmh":260,"price_usd":12000,"is_street_legal":true,"colors":["green","black"],"features":{"traction_control":true,"quick_shift":false,"abs":true,"wheelie_control":true}} ::1
+10/04/2024 21:18:56 [GET] /motos?filtro=brand&valor=Ducati {"filtro":"brand","valor":"Ducati"} {} ::1
+10/04/2024 21:19:03 [GET] /motos/8 {} {} ::1
+10/04/2024 21:19:16 [PUT] /motos/6 {} {"brand":"Bmw para log","model":"S1000RR23","release_date":"2023-01-01","engine_displacement_cc":999,"top_speed_kmh":303,"price_usd":20000,"is_street_legal":true,"colors":["blue","white"],"features":{"traction_control":true,"quick_shift":true,"abs":true}} ::1
+10/04/2024 21:29:57 [POST] /motos {} {"brand":"Suzuki","model":"GSX-R750","release_date":"2023-05-10","engine_displacement_cc":750,"top_speed_kmh":280,"price_usd":11000,"is_street_legal":true,"colors":["blue","white","black"],"features":{"traction_control":true,"quick_shift":false,"abs":true,"wheelie_control":true}} ::1
+10/04/2024 21:30:07 [POST] /motos {} {"brand":"Suzuki","model":"GSX-R750","release_date":"2023-05-10","engine_displacement_cc":750,"top_speed_kmh":280,"price_usd":11000,"is_street_legal":true,"colors":["blue","white","black"],"features":{"traction_control":true,"quick_shift":false,"abs":true}} ::1

@@ -12,7 +12,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/motos",
+					"raw": "http://localhost:3000/motos?filtro=brand&valor=Ducati",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -20,6 +20,16 @@
 					"port": "3000",
 					"path": [
 						"motos"
+					],
+					"query": [
+						{
+							"key": "filtro",
+							"value": "brand"
+						},
+						{
+							"key": "valor",
+							"value": "Ducati"
+						}
 					]
 				}
 			},
@@ -31,7 +41,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/motos/7",
+					"raw": "http://localhost:3000/motos/8",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -39,7 +49,7 @@
 					"port": "3000",
 					"path": [
 						"motos",
-						"7"
+						"8"
 					]
 				}
 			},
@@ -52,7 +62,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "        {\r\n          \"brand\": \"Triumph\",\r\n          \"model\": \"Daytona 765\",\r\n          \"release_date\": \"2024-01-01\",\r\n          \"engine_displacement_cc\": 765,\r\n          \"top_speed_kmh\": 275,\r\n          \"price_usd\": 17000,\r\n          \"is_street_legal\": true,\r\n          \"colors\": [\"black\", \"yellow\"],\r\n          \"features\": {\r\n              \"traction_control\": true,\r\n              \"quick_shift\": true,\r\n              \"abs\": true,\r\n              \"cornering_abs\": true\r\n          }\r\n        }",
+					"raw": "{\r\n    \"brand\": \"Suzuki\",\r\n    \"model\": \"GSX-R750\",\r\n    \"release_date\": \"2023-05-10\",\r\n    \"engine_displacement_cc\": 750,\r\n    \"top_speed_kmh\": 280,\r\n    \"price_usd\": 11000,\r\n    \"is_street_legal\": true,\r\n    \"colors\": [\"blue\", \"white\", \"black\"],\r\n    \"features\": {\r\n        \"traction_control\": true,\r\n        \"quick_shift\": false,\r\n        \"abs\": true\r\n    }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -80,7 +90,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n          \"brand\": \"BMW Corregida\",\r\n          \"model\": \"S1000RR\",\r\n          \"release_date\": \"2023-01-01\",\r\n          \"engine_displacement_cc\": 999,\r\n          \"top_speed_kmh\": 303,\r\n          \"price_usd\": 20000,\r\n          \"is_street_legal\": true,\r\n          \"colors\": [\"blue\", \"white\"],\r\n          \"features\": {\r\n              \"traction_control\": true,\r\n              \"quick_shift\": true,\r\n              \"abs\": true,\r\n              \"launch_control\": true\r\n          }\r\n}",
+					"raw": "{\r\n    \"brand\": \"Bmw para log\",\r\n    \"model\": \"S1000RR23\",\r\n    \"release_date\": \"2023-01-01\",\r\n    \"engine_displacement_cc\": 999,\r\n    \"top_speed_kmh\": 303,\r\n    \"price_usd\": 20000,\r\n    \"is_street_legal\": true,\r\n    \"colors\": [\"blue\", \"white\"],\r\n    \"features\": {\r\n        \"traction_control\": true,\r\n        \"quick_shift\": true,\r\n        \"abs\": true\r\n    }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -97,6 +107,26 @@
 					"path": [
 						"motos",
 						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update date",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/motos/Actualizar_motos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"motos",
+						"Actualizar_motos"
 					]
 				}
 			},
